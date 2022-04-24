@@ -4,9 +4,9 @@ import { jobs } from '../util/jobs';
 
 const Jobs = (props) => {
   return (
-    <div className="jobs p-3 bg-light mb-3">
+    <div className="jobs p-3 mb-3">
       {jobs.map((item, index) => {
-        <Job job={item} />
+        return <Job job={item} />
       })}
     </div>
   )

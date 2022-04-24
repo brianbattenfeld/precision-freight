@@ -8,7 +8,7 @@ function Manufacturer() {
   return (
     <div className='container-fluid'>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-3">
           <div className='filters bg-dark p-3 text-white'>
             <Formik>
               <form>
@@ -21,9 +21,9 @@ function Manufacturer() {
 
           </div>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-9">
           <div className='d-block'>
-            <h1>Manufacturer</h1>
+            <h1>Manufacturer's Portal</h1>
             <Jobs />
           </div>
         </div>

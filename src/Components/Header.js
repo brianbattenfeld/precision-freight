@@ -3,12 +3,13 @@ function FilterBox(props) {
 
   return (
     <header>
-      <div className="row">
-        <div className="col-md-4">
-          <h1>Precision Freight</h1>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-4 py-3">
+            <h1>Precision Freight</h1>
+          </div>
         </div>
       </div>
-
     </header>
   )
 }
